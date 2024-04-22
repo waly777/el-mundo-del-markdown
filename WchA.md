@@ -14,4 +14,18 @@
 5. Instalación de Node.js y Yarn
 6. Primeros pasos con VS Code
 
->> https://localhost:8080/WchA.md/index.html
+# Estos son los 5 comandos
+| comando | Descripción               |
+|---------|---------------------------|
+| ls      | lista de directorios      |
+| cd      | cambiar entre directorios |
+| yarn    | instalar dependicias      |
+| gst     | alias del git status      |
+| clear   | limpiar la terminal       |
+| alias   | listar los alias          |
+
+#Estos son mis alias más usados
+
+```bash
+mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
+```
